@@ -10,6 +10,7 @@ $navbar-inverse-brand-color:      #e74c3c;
 $brand-primary:				#c0392b;
 $jumbotron-bg:				white;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 .center {
