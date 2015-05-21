@@ -5,7 +5,7 @@ Rails.application.configure do
   config.cache_classes = true
 
   #this is so that the glyphicons work
-  config.asssets.compile = true
+  config.assets.compile = true
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
