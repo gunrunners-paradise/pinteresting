@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-         has_many :pins
+         has_many :pins, dependent: :destroy
 
 validates :name, length: { in: 3..15 }, presence: true
 
